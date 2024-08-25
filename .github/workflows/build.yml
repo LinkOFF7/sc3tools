@@ -10,7 +10,6 @@ jobs:
       matrix:
         target:
           - windows-latest
-          - ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - uses: actions-rs/toolchain@v1
