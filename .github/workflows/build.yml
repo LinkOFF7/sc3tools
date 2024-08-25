@@ -9,8 +9,8 @@ jobs:
     strategy:
       matrix:
         target:
-          - armv7-unknown-linux-gnueabihf
-          - powerpc64-unknown-linux-gnu
+          - windows-latest
+          - ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - uses: actions-rs/toolchain@v1
